@@ -1,7 +1,6 @@
 body {
   background-color: #041126;
   color: #60c4bc;
-
   user-select: none;
   font-family: 'Playfair Display', serif;
 }
@@ -51,8 +50,8 @@ body {
   padding: 2em;
   border: #60c4bc;
   border-style: dashed;
-  margin-top: 1em;
   border-width: 1px;
+  margin-top: 1em;
   max-width: 27em;
   min-width: 27em;
   transition: background-color 1s, color 1s, border-radius 1s;
@@ -99,9 +98,45 @@ footer {
 
 #column-2,
 #column-3 {
-  margin-top: 7em;
+  margin-top: 7.2em;
 }
 
 #column-2 {
-  flex-grow: 0.5;
+  flex-grow: 0.005;
+}
+
+.big-skill-row,
+.small-skill-row {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.85em;
+}
+
+.big-skill,
+.small-skill {
+  border: #60c4bc;
+  border-style: dashed;
+  border-width: 1px;
+  text-align: center;
+
+  transition: background-color 1s, color 1s, border-radius 1s;
+}
+
+.big-skill {
+  width: 10em;
+  height: 10em;
+}
+.small-skill {
+  width: 5.55em;
+  height: 5.55em;
+}
+
+.small-skill:hover,
+.big-skill:hover {
+  background-color: #60c4bc;
+  color: #041126;
+  border-radius: 1em;
+  transition: background-color 1s, color 1s, border-radius 1s;
 }
