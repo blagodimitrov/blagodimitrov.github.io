@@ -1,0 +1,32 @@
+body {
+  background-color: #041126;
+  color: #60c4bc;
+  padding-left: 1em;
+  user-select: none;
+}
+
+#logo {
+  max-width: 100px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.playfair-display-font {
+  font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.title {
+  font-size: 3vh;
+  margin: 0;
+}
+
+.subtitle {
+  margin: 0;
+}
