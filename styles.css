@@ -1,13 +1,17 @@
 body {
   background-color: #041126;
   color: #60c4bc;
-  padding: 5em;
+
   user-select: none;
   font-family: 'Playfair Display', serif;
+}
+
+.page-container {
   display: flex;
   gap: 2em;
   justify-content: flex-start;
   position: relative;
+  padding: 5em;
 }
 
 #logo {
@@ -88,9 +92,7 @@ footer {
   color: #60c4bc;
   position: absolute;
   bottom: 0;
-
   padding-left: 1em;
-  padding-top: 1em;
   padding-right: 1em;
   height: 2.5rem; /* Footer height */
 }
