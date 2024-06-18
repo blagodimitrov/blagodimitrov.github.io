@@ -195,14 +195,14 @@ footer {
 
 #column-3 {
   display: flex;
-  gap: 2em;
-  max-height: 56.7em;
+  gap: 1.5em;
+  max-height: 56.4em;
 }
 
 .project-image {
   margin: -2em;
   transition: border-radius 1s;
-  opacity: 0.5 !important;
+  opacity: 0.8 !important;
 }
 
 .project-image:hover {
