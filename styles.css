@@ -59,7 +59,7 @@ body {
 
 .text-block:hover {
   background-color: #60c4bc;
-  color: #041126;
+  color: #ffffff;
   border-radius: 2em;
   transition: background-color 1s, color 1s, border-radius 1s;
 }
@@ -120,7 +120,11 @@ footer {
   border-style: dashed;
   border-width: 1px;
   text-align: center;
-
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
   transition: background-color 1s, color 1s, border-radius 1s;
 }
 
@@ -129,14 +133,32 @@ footer {
   height: 10em;
 }
 .small-skill {
-  width: 5.55em;
-  height: 5.55em;
+  width: 5.65em;
+  font-size: 0.83rem;
+  height: 5.65em;
+  padding: 0.5em;
 }
 
 .small-skill:hover,
 .big-skill:hover {
   background-color: #60c4bc;
-  color: #041126;
+  color: #ffffff;
   border-radius: 1em;
   transition: background-color 1s, color 1s, border-radius 1s;
+}
+
+.links {
+  display: flex;
+}
+
+.icons {
+  cursor: pointer;
+  margin-left: 1em;
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+}
+
+.skill-icons {
+  max-width: 5rem;
+  max-height: 5rem;
 }
