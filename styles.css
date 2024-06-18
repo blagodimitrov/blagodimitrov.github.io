@@ -11,6 +11,7 @@ body {
   justify-content: flex-start;
   position: relative;
   padding: 5em;
+  padding-bottom: 1em;
 }
 
 #logo {
