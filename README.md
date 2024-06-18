@@ -1,2 +1,2 @@
 A project using HTML/CSS/Javascript to display my portfolio.
-<img src="[https://cloud.githubusercontent.com/assets/yourgif.gif](https://github.com/blagodimitrov/blagodimitrov.github.io/assets/47771629/438f72b7-09e9-4fae-bac1-fdedbf0a0982)" width="400" height="790">
+<img src="https://github.com/blagodimitrov/blagodimitrov.github.io/assets/47771629/725baffe-5771-4423-87c1-64595ebda501" width="100" height="100"/>
