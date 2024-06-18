@@ -1,4 +1,39 @@
+@media only screen and (min-width: 2339px) {
+  #column-3 {
+    margin-top: 7.2em;
+    gap: 0.8em;
+  }
+}
+
+@media only screen and (min-width: 1259px) {
+  #column-2 {
+    margin-top: 7.2em;
+  }
+  .small {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1259px) {
+  #column-3 {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -1.85em;
+  }
+  .big {
+    display: none;
+  }
+
+  .project {
+    padding-top: 0.1em !important;
+    padding-bottom: 0.1em !important;
+  }
+}
+
 body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: #041126;
   color: #60c4bc;
   user-select: none;
@@ -6,12 +41,14 @@ body {
 }
 
 .page-container {
+  position: relative;
   display: flex;
+  flex-wrap: wrap;
   gap: 2em;
-  justify-content: flex-start;
+  justify-content: center;
   position: relative;
   padding: 5em;
-  padding-bottom: 1em;
+  padding-bottom: 0em;
 }
 
 #logo {
@@ -53,8 +90,8 @@ body {
   border-style: dashed;
   border-width: 1px;
   margin-top: 1em;
-  max-width: 27em;
-  min-width: 27em;
+  max-width: 28.2em;
+  min-width: 28.2em;
   transition: background-color 1s, color 1s, border-radius 1s;
 }
 
@@ -89,17 +126,11 @@ p {
 }
 
 footer {
+  align-items: center;
   color: #60c4bc;
-  position: absolute;
-  bottom: 0;
-  padding-left: 1em;
-  padding-right: 1em;
-  height: 2.5rem; /* Footer height */
-}
-
-#column-2,
-#column-3 {
-  margin-top: 7.2em;
+  width: 20em;
+  padding-top: 1em;
+  padding-bottom: 2em;
 }
 
 #column-2 {
@@ -148,10 +179,6 @@ footer {
   transition: background-color 1s, color 1s, border-radius 1s;
 }
 
-.links {
-  display: flex;
-}
-
 .icons {
   cursor: pointer;
   margin-left: 1em;
@@ -174,8 +201,8 @@ footer {
   border-style: dashed;
   border-width: 1px;
   height: 18em;
-  max-width: 27em;
-  min-width: 27em;
+  max-width: 28.1em;
+  min-width: 28.1em;
   cursor: pointer;
   transition: background-color 1s, color 1s, border-radius 1s;
 }
@@ -189,13 +216,15 @@ footer {
 
 .project-column {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  gap: 2em;
+  gap: 0.8em;
 }
 
 #column-3 {
   display: flex;
-  gap: 1.5em;
+  gap: 2em;
   max-height: 56.4em;
 }
 
