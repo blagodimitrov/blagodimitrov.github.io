@@ -20,6 +20,12 @@
   }
 }
 
+@media only screen and (max-width: 700px) {
+  html {
+    font-size: 75%;
+  }
+}
+
 @media only screen and (max-width: 1259px) {
   #column-3 {
     justify-content: center;
