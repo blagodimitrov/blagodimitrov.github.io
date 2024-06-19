@@ -24,6 +24,9 @@
   html {
     font-size: 70%;
   }
+  .page-container {
+    padding-top: 1em !important;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -148,7 +151,7 @@ p {
 footer {
   align-items: center;
   color: #60c4bc;
-  width: 22em;
+  width: 24em;
   padding-top: 2em;
   padding-bottom: 2em;
 }
