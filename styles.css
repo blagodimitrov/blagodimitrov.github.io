@@ -60,7 +60,7 @@ body {
   background-color: #041126;
   color: #60c4bc;
   user-select: none;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .page-container {
@@ -87,7 +87,7 @@ body {
 }
 
 .playfair-display-font {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
@@ -136,6 +136,7 @@ body {
 
 .experience {
   font-weight: 900;
+  min-height: 11.8em;
 }
 
 h1 {
