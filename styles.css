@@ -111,11 +111,13 @@ body {
   transition: background-color 1s, color 1s, border-radius 1s;
 }
 
-.text-block:hover {
-  background-color: #60c4bc;
-  color: #ffffff;
-  border-radius: 2em;
-  transition: background-color 1s, color 1s, border-radius 1s;
+@media (hover: hover), (-ms-high-contrast: none) {
+  .text-block:hover {
+    background-color: #60c4bc;
+    color: #ffffff;
+    border-radius: 2em;
+    transition: background-color 1s, color 1s, border-radius 1s;
+  }
 }
 
 .text-block li {
