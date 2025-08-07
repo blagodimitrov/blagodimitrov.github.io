@@ -12,6 +12,9 @@
   .small {
     display: none;
   }
+  .icon-container {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 2339px) {
@@ -91,6 +94,26 @@ body {
   margin: 0;
 }
 
+@media only screen and (max-width: 1259px) {
+  .small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.icon-container {
+  display: flex;
+  gap: -2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+}
+
 .subtitle {
   margin: 0;
   font-weight: 400;
@@ -131,7 +154,7 @@ body {
 
 .experience {
   font-weight: 900;
-  min-height: 15.2em;
+  min-height: 11em;
 }
 
 h1 {
@@ -188,6 +211,11 @@ footer {
   font-size: 0.83rem;
   height: 5.65em;
   padding: 0.5em;
+}
+
+.big {
+  display: flex;
+  margin-top:1.5rem;
 }
 
 .small-skill:hover,
